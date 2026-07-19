@@ -8,6 +8,10 @@ Public proof of my work in agent orchestration, AI infrastructure, and product e
 
 A Rust implementation of the OpenAI Symphony draft orchestration specification. It coordinates Linear issues, per-issue workspaces, Codex app-server sessions, an optional HTTP surface, and optional SSH worker leases. The public repository includes the architecture, crate map, setup steps, tests, and my authorship statement.
 
+### [Boop](https://github.com/jadenmaciel/boop-agent)
+
+A security-focused, owner-only Codex fork of [raroque/boop-agent](https://github.com/raroque/boop-agent). I replaced the Convex, UI, and Claude runtime with SQLite and headless Codex. I also added a signed owner webhook boundary, staged confirmations, and typed Vault and integration tools.
+
 ### [AI Agent Infrastructure](docs/agent-infrastructure.md)
 
 A sanitized case study of private agent infrastructure I designed and operated. It covers the problem, safety constraints, confirmation controls, bounded execution, recovery behavior, testing, and lessons without publishing private source or operational coordinates.
